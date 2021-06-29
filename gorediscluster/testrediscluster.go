@@ -7,11 +7,11 @@ import (
 
 var rdb *redis.ClusterClient
 
-// 初始化连接 10.15.1.48:7003  pass.123 ok;10.15.1.30:6379 kfzisgreatman100 is down
+// 初始化连接 10.15.1.48:7003  ok;10.15.1.30:6379  is down
 func initClient()(err error){
 	rdb := redis.NewClusterClient(&redis.ClusterOptions{
 		Addrs: []string{"10.15.1.30:6379"},
-		Password: "kfzisgreatman100", // no password set
+		Password: "", // no password set
 	})
 
 	fmt.Println(rdb.ClusterNodes())
