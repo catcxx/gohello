@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634463d3-4ed2-4d36-a73e-dfad83e2b053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gohello.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call/call.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gohello" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goredis/testredis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greetings/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greetings/greetings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello/hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scanner/tcpscaneer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scannerflag/tcpscaneerflag.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scannerflag/tcpscaneerflag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/spider1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcp/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcp/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tidy/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tidy/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorediscluster/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorediscluster/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorediscluster/testrediscluster.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goredis/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/goredis/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goredis/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/goredis/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goredis/testredis.go" beforeDir="false" afterPath="$PROJECT_DIR$/goredis/testredis.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +31,11 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1sNuICXf4UWx1kY1ITA6zqrI3KH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,6 +43,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../go_learning" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,20 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build testredis.go">
-    <configuration name="go build call.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build testrediscluster.go">
+    <configuration name="go build gorediscluster" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gohello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/call/call.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gohello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello/hello.go" />
+      <working_directory value="$PROJECT_DIR$/gorediscluster" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/gorediscluster/testrediscluster.go" />
+      <package value="gorediscluster" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -119,13 +99,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build testrediscluster.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gohello" />
+      <working_directory value="$PROJECT_DIR$/gorediscluster" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorediscluster/testrediscluster.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build testrediscluster.go" />
+        <item itemvalue="Go Build.go build gorediscluster" />
         <item itemvalue="Go Build.go build testredis.go" />
         <item itemvalue="Go Build.go build tcpscaneer.go" />
         <item itemvalue="Go Build.go build tcpscaneerflag.go" />
-        <item itemvalue="Go Build.go build hello.go" />
-        <item itemvalue="Go Build.go build call.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,10 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
   </component>
 </project>
