@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634463d3-4ed2-4d36-a73e-dfad83e2b053" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gorediscluster/testrediscluster.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorediscluster/testrediscluster.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomysql/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomysql/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomysql/gomysqltest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build testrediscluster.go">
+  <component name="RunManager" selected="Go Build.go build gomysqltest.go">
+    <configuration name="go build gomysqltest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gohello" />
+      <working_directory value="$PROJECT_DIR$/gomysql" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gomysql/gomysqltest.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build gorediscluster" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gohello" />
       <working_directory value="$PROJECT_DIR$/gorediscluster" />
@@ -74,14 +85,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/scanner/tcpscaneer.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tcpscaneerflag.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gohello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/scannerflag/tcpscaneerflag.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -103,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gomysqltest.go" />
+        <item itemvalue="Go Build.go build testredis.go" />
         <item itemvalue="Go Build.go build testrediscluster.go" />
         <item itemvalue="Go Build.go build gorediscluster" />
-        <item itemvalue="Go Build.go build testredis.go" />
         <item itemvalue="Go Build.go build tcpscaneer.go" />
-        <item itemvalue="Go Build.go build tcpscaneerflag.go" />
       </list>
     </recent_temporary>
   </component>
